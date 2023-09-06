@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Navbar from './components/navbar/Navbar'
-import PostList from './components/postList/PostList'
+import Navbar from '@/Utilities/Components/navbar/Navbar'
+import PropsExample from '@/Examples List/PropsExample/PropsExample'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <Navbar />
-        <PostList/>
+         <PropsExample/>
         
         </body>
     </html>

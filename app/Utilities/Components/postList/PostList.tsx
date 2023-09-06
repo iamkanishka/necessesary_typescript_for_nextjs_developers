@@ -1,6 +1,7 @@
 import React from "react"
 import PostCard from "../postCard/PostCard"
-import {PostProps} from '@/Types/types'
+import {PostProps} from '@/Utilities/Types/types'
+
 
 const PostList = async () => {
 
