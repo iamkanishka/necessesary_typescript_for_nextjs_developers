@@ -277,3 +277,4 @@ const testMeEvenBetterCategory : IPostEvenbetter<ICategory> = {
     extra:[{id:1,title:'adcasdc'}]
 }
 
+testMeEvenBetter.id = 2
