@@ -1,13 +1,11 @@
 import React from "react"
-import PostCard from "../postCard/PostCard"
-import {PostProps} from '@/Utilities/Types/types'
+import PostCard from "@/Components/postCard/PostCard"
+import {PostProps} from '@/Types/types'
 
 
 const PostList = async () => {
-
   const data:PostProps[] = await getData();
-
-  return (
+   return (
     <div className="postList">
       {data.map((post:PostProps) => {
       return <PostCard key={post.id} {...post} />

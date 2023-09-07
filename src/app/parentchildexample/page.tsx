@@ -1,5 +1,7 @@
-import ChildComponent from "@/Utilities/Components/childrenParent/Child"
-import ParentComponenet from "@/Utilities/Components/childrenParent/Parent"
+import ChildComponent from "@/Components/childrenParent/Child"
+import ParentComponenet from "@/Components/childrenParent/Parent"
+
+
 import React from "react";
 
  const ParentChildExample  =()=>{
