@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <span className='logo'>lama dev</span>
+      <span className='logo'>Typescript in NextJS</span>
       <div className="links">
         <Link href="#">Homepage</Link>
         <Link href="#">About</Link>

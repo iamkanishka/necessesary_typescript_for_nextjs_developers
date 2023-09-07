@@ -1,5 +1,6 @@
-import PostList from '@/components/postList/PostList'
+import PostList from "@/Components/postList/PostList";
 
+PostList
 const PropsExample = ()=>{
     return (
         <PostList/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {PostProps} from '@/Utilities/Types/types'
+import {PostProps} from '@/Types/types'
 
 const PostCard = (props:PostProps) =>{
  
